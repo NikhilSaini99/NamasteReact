@@ -1,0 +1,17 @@
+Q1: What is CDN? Why do we use CDN?
+Ans: =>CDN stands for Contend Dilevery network.
+     =>CDN is a network of Interconnected Servers, that speeds up webpage Loading for data-heavy applications.
+     =>Website content is stored and cached on CDN servers geographically closer to the users.
+     =>Reduce Latency, Faster Web-page Loading, Cost Saving(by reducing bandwith
+          usage by the origin server), etc.   
+
+Q2: What is crossorigin in Script Tag? 
+Ans: crossorigin is an attribute that we use to handle CORS requests. CORS stands for Cross Origin Resource Sharing-- Means we are sharing resources like Images, videos,
+     audio etc from One domain to another domain. Crossorigin attribute basically handles CORS requests, that checks whether it is safe to allow for 
+     sharing the resources from other domains.
+     it takes up two values => 1. anonymous(sending request without sharing your credentials) 2.use-credentials(sharing your cookies credentials and certifacte along with the request you are sending)
+
+Q3: Does the Order of file matters? (<script>tag) -- YES it matters we
+
+Q4: What is Emmet?
+Ans: Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow

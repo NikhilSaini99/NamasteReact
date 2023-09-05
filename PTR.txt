@@ -1,0 +1,8 @@
+=> React.createElement -- basically returns us an JS object(which is a react element).
+
+=> render();
+This render Method is responsible of converting an object(
+    whatever we have created using React.creatElement)
+    into html element and put it inside the DOM
+
+
