@@ -10,7 +10,7 @@ const heading = React.createElement(
 //Nested Element using React
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "Child-1" }, [
-    React.createElement("h1", { id: "heading1" }, "Learning React Js"),
+    React.createElement("h1", { id: "heading1" }, "Episode 02 Igniting our App"),
     React.createElement(
       "h2",
       { id: "heading2" },
@@ -27,11 +27,5 @@ const parent = React.createElement("div", { id: "parent" }, [
   ]),
 ]);
 
-console.log(heading); // JS Object
+export default parent
 
-export default parent;
-
-/* const root = ReactDOM.createRoot(document.getElementById("root"));
-
-//This render Method is responsible of converting Js object- which is a react element(heading) into H1 element and put it inside the DOM.
-root.render(parent);  */
