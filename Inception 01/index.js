@@ -1,5 +1,6 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
+import "./index.css"
 
 const heading = React.createElement(
   "h1",
@@ -10,7 +11,7 @@ const heading = React.createElement(
 //Nested Element using React
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "Child-1" }, [
-    React.createElement("h1", { id: "heading1" }, "Learning React Js"),
+    React.createElement("h1", { id: "heading" }, "Learning React Js"),
     React.createElement(
       "h2",
       { id: "heading2" },
